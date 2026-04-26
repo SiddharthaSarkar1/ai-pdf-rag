@@ -21,7 +21,7 @@ def chunk_text(text: str):
 
     return chunks
 
-def read_text(text: str) -> str:
+def read_text(path: str) -> str:
     ext = os.path.splitext(path)[1].lower()
 
     if ext == ".pdf":
